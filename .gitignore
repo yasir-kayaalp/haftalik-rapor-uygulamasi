@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Client node modules
+client/node_modules/
+
+# Cache dosyaları
+**/node_modules/.cache/
+
+# TypeScript dosyaları
+**/typescript/lib/tsserver.js
+**/typescript/lib/tsserverlibrary.js
+**/typescript/lib/typescriptServices.js
+**/typescript/lib/typescript.js
+
+# Genel olarak tüm .pack dosyaları
+**/*.pack
+
+# Diğer büyük dosyalar veya klasörler
+# Eğer başka büyük dosyalar varsa, onları da buraya ekleyebilirsiniz
